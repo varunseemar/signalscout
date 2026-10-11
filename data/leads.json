@@ -1,0 +1,3965 @@
+[
+  {
+    "id": 16,
+    "name": "True",
+    "domain": "true.ai",
+    "website": "https://true.ai",
+    "website_source": "guessed",
+    "description": "True is an AI-powered lending intelligence platform that automates mortgage underwriting and loan processing for lenders.",
+    "sector": "Fintech",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 100,
+    "score_breakdown": {
+      "fit": 40,
+      "size": 15,
+      "timing": 25,
+      "reachability": 20
+    },
+    "score_reasons": [
+      "Raised $2M Series B 5 days ago",
+      "Target sector: Fintech",
+      "In target geography (New York, United States)",
+      "Target stage: Series B",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 100,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "role",
+        "email": "support@true.ai",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [
+      {
+        "e164": "+19292410318",
+        "region": "US",
+        "display": "+1 929-241-0318"
+      }
+    ],
+    "socials": {
+      "twitter": "https://twitter.com/GoTRUEAI",
+      "linkedin": "https://linkedin.com/company/gotrueai"
+    },
+    "people": [
+      {
+        "name": "Alison Wasserman",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Ari Gross",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series B",
+        "amount_usd": 2500000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-07",
+        "lead_investors": [],
+        "investors": [],
+        "use_of_funds": null,
+        "summary": "True recently raised $2.5M in a Series B close, indicating fresh capital injection for their AI-powered mortgage underwriting and loan processing platform.",
+        "source_article_ids": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "GUDEA",
+    "domain": "gudea.ai",
+    "website": "https://www.gudea.ai/",
+    "website_source": "article",
+    "description": "GUDEA is an AI-powered narrative intelligence platform that helps organizations understand how narratives form and spread across the digital landscape.",
+    "sector": "AI / ML",
+    "hq_city": "Minneapolis",
+    "hq_country": "United States",
+    "score": 92,
+    "score_breakdown": {
+      "fit": 40,
+      "size": 15,
+      "timing": 25,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $7M Seed 3 days ago",
+      "Target sector: AI / ML",
+      "In target geography (Minneapolis, United States)",
+      "Target stage: Seed",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/gudea",
+      "crunchbase": "https://crunchbase.com/organization/gudea"
+    },
+    "people": [
+      {
+        "name": "Keith Presley",
+        "title": "Co-founder & CEO",
+        "source": "article"
+      },
+      {
+        "name": "Jonathan Sperber",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "James Thomin",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Seed",
+        "amount_usd": 7000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-09",
+        "lead_investors": [
+          "Mudita Ventures",
+          "Collide Capital"
+        ],
+        "investors": [
+          "Mudita Ventures",
+          "Collide Capital"
+        ],
+        "use_of_funds": "accelerate product development and enterprise growth",
+        "summary": "GUDEA recently closed a $7 million seed round co-led by Mudita Ventures and Collide Capital to expand its engineering and go-to-market teams, providing an ideal entry point for sales outreach regarding their narrative intelligence platform.",
+        "source_article_ids": [
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Melius",
+    "domain": "melius.com",
+    "website": "https://www.melius.com/",
+    "website_source": "guessed",
+    "description": "Melius is an AI platform that deploys agents to handle the production work of creative projects.",
+    "sector": "AI / ML",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 92,
+    "score_breakdown": {
+      "fit": 40,
+      "size": 15,
+      "timing": 25,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $20M Series A 4 days ago",
+      "Target sector: AI / ML",
+      "In target geography (New York, United States)",
+      "Target stage: Series A",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "twitter": "https://x.com/trymelius",
+      "linkedin": "https://linkedin.com/company/meliusai"
+    },
+    "people": [
+      {
+        "name": "Joowon Kim",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Arnav Ramu",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Young Kim",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series A",
+        "amount_usd": 20000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-08",
+        "lead_investors": [
+          "CRV"
+        ],
+        "investors": [
+          "CRV",
+          "General Catalyst",
+          "Genius Ventures",
+          "Vine Ventures",
+          "Anti Fund"
+        ],
+        "use_of_funds": null,
+        "summary": "Melius just raised $20 million in Series A funding led by CRV to expand its AI platform for creative projects, making this an ideal time to pitch solutions that support rapid scaling and engineering infrastructure.",
+        "source_article_ids": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Meticulous",
+    "domain": "meticulous.ai",
+    "website": "https://meticulous.ai",
+    "website_source": "guessed",
+    "description": "Meticulous provides an automated testing platform that generates and maintains test flows to verify code changes and enable faster software delivery.",
+    "sector": "SaaS / Software",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 92,
+    "score_breakdown": {
+      "fit": 40,
+      "size": 15,
+      "timing": 25,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $15M Series A 4 days ago",
+      "Target sector: SaaS / Software",
+      "In target geography (San Francisco, United States)",
+      "Target stage: Series A",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "github": "https://github.com/alwaysmeticulous",
+      "twitter": "https://x.com/meticulousgabe",
+      "linkedin": "https://linkedin.com/company/alwaysmeticulous"
+    },
+    "people": [
+      {
+        "name": "Quentin Spencer-Harper",
+        "title": "CTO",
+        "source": "article"
+      },
+      {
+        "name": "Zach Davis",
+        "title": "Director of Engineering at LaunchDarkly",
+        "source": "article"
+      },
+      {
+        "name": "Erdem Alparslan",
+        "title": "Head of Developer Experience at Notion",
+        "source": "article"
+      },
+      {
+        "name": "Ethan Kurzweil",
+        "title": "Managing Partner at Chemistry",
+        "source": "article"
+      },
+      {
+        "name": "Emily Tsen",
+        "title": "Chief of Staff",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series A",
+        "amount_usd": 15000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-08",
+        "lead_investors": [
+          "Chemistry"
+        ],
+        "investors": [
+          "Chemistry",
+          "Menlo Ventures",
+          "Lachy Groom",
+          "Jason Warner",
+          "Arash Ferdowsi",
+          "Scott Belsky",
+          "Guillermo Rauch",
+          "Calvin French-Owen",
+          "Caitlin Colgrove",
+          "Jason Ginsberg"
+        ],
+        "use_of_funds": null,
+        "summary": "Meticulous just secured a $15 million Series A funding round led by Chemistry to scale its automated testing and developer velocity platform, making it an ideal time to reach out about enterprise testing and CI/CD integrations.",
+        "source_article_ids": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Stuut",
+    "domain": "stuut.ai",
+    "website": "https://www.stuut.ai/",
+    "website_source": "guessed",
+    "description": "Stuut is an AI-powered accounts receivable platform that automates invoice collection and cash application for enterprise B2B teams.",
+    "sector": "Fintech",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 92,
+    "score_breakdown": {
+      "fit": 40,
+      "size": 15,
+      "timing": 25,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $52M Series B 5 days ago",
+      "Target sector: Fintech",
+      "In target geography (New York, United States)",
+      "Target stage: Series B",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "twitter": "https://twitter.com/stuut_ai",
+      "linkedin": "https://linkedin.com/company/stuut-ai"
+    },
+    "people": [
+      {
+        "name": "Tarek Alaruri",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Ben Winter",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Miraj Mohsin",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series B",
+        "amount_usd": 52500000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-07",
+        "lead_investors": [
+          "Insight Partners"
+        ],
+        "investors": [
+          "Insight Partners",
+          "Andreessen Horowitz",
+          "M12",
+          "Activant Capital"
+        ],
+        "use_of_funds": null,
+        "summary": "Stuut just raised $52.5M in Series B funding led by Insight Partners, giving them fresh capital to scale their enterprise B2B accounts receivable platform.",
+        "source_article_ids": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Rebel Audio",
+    "domain": "rebelaudio.ai",
+    "website": "https://www.rebelaudio.ai",
+    "website_source": "article",
+    "description": "Rebel Audio is an AI-powered podcasting platform designed to simplify how podcasts are created, produced, and scaled.",
+    "sector": "AI / ML",
+    "hq_city": "Nashville",
+    "hq_country": "United States",
+    "score": 90,
+    "score_breakdown": {
+      "fit": 40,
+      "size": 15,
+      "timing": 23,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $10M Series A 4 days ago",
+      "Target sector: AI / ML",
+      "In target geography (Nashville, United States)",
+      "Target stage: Series A",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "twitter": "https://x.com/RebelAudioAI",
+      "linkedin": "https://linkedin.com/company/RebelAudio"
+    },
+    "people": [
+      {
+        "name": "Jared Gutstadt",
+        "title": "Founder & CEO",
+        "source": "article"
+      },
+      {
+        "name": "Matt Kalish",
+        "title": "Board Member",
+        "source": "article"
+      },
+      {
+        "name": "Ben Lurie",
+        "title": "Board Member",
+        "source": "article"
+      },
+      {
+        "name": "Jacob Dezarn",
+        "title": "Board Member",
+        "source": "article"
+      },
+      {
+        "name": "Jonathan Schulman",
+        "title": "Board Member",
+        "source": "article"
+      },
+      {
+        "name": "Mark Burnett",
+        "title": "Advisory Board Member",
+        "source": "article"
+      },
+      {
+        "name": "Mike Majlak",
+        "title": "Chief Creator in Residence",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series A",
+        "amount_usd": 10000000.0,
+        "valuation_usd": 50000000.0,
+        "announced_on": "2026-10-08",
+        "lead_investors": [
+          "HardScope"
+        ],
+        "investors": [
+          "HardScope",
+          "The State of Tennessee",
+          "Launch TN",
+          "Rich Marder",
+          "Joe McCann",
+          "Julie Gauthier",
+          "Capital Midwest",
+          "Charlie Epstein",
+          "Ben Lurie",
+          "Jonathan Schulman"
+        ],
+        "use_of_funds": "Accelerating product roadmap, expanding AI infrastructure, fueling creator acquisition and marketing",
+        "summary": "Rebel Audio just closed a Series A round targeting $10M at a $50M post-money valuation to expand its AI infrastructure and creator acquisition, presenting an opportunity to pitch services that support rapid scaling and marketing efforts.",
+        "source_article_ids": [
+          25
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Biotia",
+    "domain": "biotia.io",
+    "website": "https://biotia.io",
+    "website_source": "guessed",
+    "description": "Biotia is a health tech startup offering AI-based solutions to diagnose and control infectious disease.",
+    "sector": "Healthcare / Biotech",
+    "hq_city": "Long Island City",
+    "hq_country": "United States",
+    "score": 89,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 24,
+      "reachability": 20
+    },
+    "score_reasons": [
+      "Raised $9M Undisclosed 7 days ago",
+      "Target sector: Healthcare / Biotech",
+      "In target geography (Long Island City, United States)",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 100,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "personal",
+        "email": "customersupport@biotia.io",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      },
+      {
+        "type": "personal",
+        "email": "clinicalsupport@biotia.io",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      },
+      {
+        "type": "personal",
+        "email": "humanresources@biotia.io",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      },
+      {
+        "type": "role",
+        "email": "info@biotia.io",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      },
+      {
+        "type": "role",
+        "email": "media@biotia.io",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [
+      {
+        "e164": "+19177301829",
+        "region": "US",
+        "display": "+1 917-730-1829"
+      }
+    ],
+    "socials": {
+      "twitter": "https://x.com/biotiainc",
+      "linkedin": "https://linkedin.com/company/biotia"
+    },
+    "people": [
+      {
+        "name": "Chris Mason",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Niamh O’Hara",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Rachid Ounit",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 9000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Cloquet Capital Partners",
+          "Continuum Health Ventures",
+          "Convergent Ventures",
+          "DigitalDx Ventures",
+          "Dr. Clive Fields",
+          "EGB Capital",
+          "I-Lab Angels",
+          "Leawood Venture Capital",
+          "Red Bear Angels",
+          "Red Bear Ventures",
+          "Tim Barry"
+        ],
+        "use_of_funds": "To close the diagnostic gap for recurrent and culture-negative UTIs",
+        "summary": "Biotia raised $9M to specifically close the diagnostic gap for recurrent and culture-negative UTIs using its AI-based diagnostic platform.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Polyphron",
+    "domain": "polyphron.com",
+    "website": "https://www.polyphron.com/",
+    "website_source": "guessed",
+    "description": "Polyphron trains AI models to manufacture and simulate living human tissue for drug toxicity and discovery testing.",
+    "sector": "Healthcare / Biotech",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 88,
+    "score_breakdown": {
+      "fit": 40,
+      "size": 15,
+      "timing": 23,
+      "reachability": 10
+    },
+    "score_reasons": [
+      "Raised $20M Seed 3 days ago",
+      "Target sector: Healthcare / Biotech",
+      "In target geography (New York, United States)",
+      "Target stage: Seed",
+      "No public email found yet"
+    ],
+    "data_quality": 50,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Matthew Osman",
+        "title": "Co-founder & CEO",
+        "source": "article"
+      },
+      {
+        "name": "Fabio Boniolo",
+        "title": "CSO",
+        "source": "article"
+      },
+      {
+        "name": "Vinh Q. Tran",
+        "title": "Co-founder & Chief AI Scientist",
+        "source": "article"
+      },
+      {
+        "name": "George Pilitsis",
+        "title": "COO",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Seed",
+        "amount_usd": 20000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-09",
+        "lead_investors": [
+          "Quiet Capital"
+        ],
+        "investors": [
+          "Quiet Capital",
+          "Haystack",
+          "Gradient",
+          "Compound"
+        ],
+        "use_of_funds": "Scaling core infrastructure, expanding training dataset across cardiac and liver tissue, building automation, and growing donor panel",
+        "summary": "Polyphron just secured $20M in seed funding led by Quiet Capital to scale its automated human tissue manufacturing and simulation platform, making it an ideal time to pitch life sciences infrastructure, lab automation, or enterprise data solutions as they expand their tissue donor panel past 20 lines and onboard liver tissue next.",
+        "source_article_ids": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Miter",
+    "domain": "miter.com",
+    "website": "https://www.miter.com/",
+    "website_source": "guessed",
+    "description": "Miter provides construction workforce management software that connects payroll, human resources, and operations on a unified platform.",
+    "sector": "SaaS / Software",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 86,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 24,
+      "reachability": 17
+    },
+    "score_reasons": [
+      "Raised $40M Undisclosed 7 days ago",
+      "Target sector: SaaS / Software",
+      "In target geography (San Francisco, United States)",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 85,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "role",
+        "email": "support@miter.com",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      },
+      {
+        "type": "role",
+        "email": "press@miter.com",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "twitter": "https://x.com/BuildWithMiter",
+      "linkedin": "https://linkedin.com/company/miterhr",
+      "crunchbase": "https://crunchbase.com/organization/miter-057c"
+    },
+    "people": [
+      {
+        "name": "Connor Watumull",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Tobin Paxton",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 40000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Battery Ventures",
+          "Bessemer Venture Partners",
+          "Coatue"
+        ],
+        "use_of_funds": null,
+        "summary": "Miter raised $40M, bringing its total funding to $90M to expand its construction workforce management software.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Presto",
+    "domain": "presto.com",
+    "website": "https://presto.com",
+    "website_source": "guessed",
+    "description": "Presto is a software company that provides AI and automation solutions to the restaurant industry.",
+    "sector": "SaaS / Software",
+    "hq_city": "Redwood City",
+    "hq_country": "United States",
+    "score": 86,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 24,
+      "reachability": 17
+    },
+    "score_reasons": [
+      "Raised $10M Undisclosed 7 days ago",
+      "Target sector: SaaS / Software",
+      "In target geography (Redwood City, United States)",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 85,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "personal",
+        "email": "mktg@presto.com",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/presto-ai"
+    },
+    "people": [
+      {
+        "name": "Krishna Gupta",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Michael Chorey",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Rajat Suri",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 10000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "REMUS Capital"
+        ],
+        "use_of_funds": null,
+        "summary": "Presto raised $10M to push its total equity funding to $192.6M for its restaurant AI and automation solutions.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Reco",
+    "domain": "reco.ai",
+    "website": "https://www.reco.ai/",
+    "website_source": "guessed",
+    "description": "Reco is a SaaS security platform that secures AI agents, applications, identities, and workflows.",
+    "sector": "Cybersecurity",
+    "hq_city": "Altamonte Springs",
+    "hq_country": "United States",
+    "score": 86,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 24,
+      "reachability": 17
+    },
+    "score_reasons": [
+      "Raised $55M Undisclosed 7 days ago",
+      "Target sector: Cybersecurity",
+      "In target geography (Altamonte Springs, United States)",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 85,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "role",
+        "email": "info@reco.ai",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "twitter": "https://twitter.com/recolabs_ai",
+      "linkedin": "https://linkedin.com/company/recolabs"
+    },
+    "people": [
+      {
+        "name": "Gal Nakash",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Ofer Klein",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Tal Shapira",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 55000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "AT&T Ventures",
+          "Forestay Capital",
+          "Quadrille Capital"
+        ],
+        "use_of_funds": null,
+        "summary": "Reco raised $55M, bringing its total funding to $140M to accelerate its SaaS security platform for AI agents.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Negosh",
+    "domain": "negosh.com",
+    "website": "https://negosh.com",
+    "website_source": "guessed",
+    "description": "Negosh is an online marketplace that connects brands with manufacturers to negotiate intellectual property licensing deals.",
+    "sector": "SaaS / Software",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 85,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 23,
+      "reachability": 17
+    },
+    "score_reasons": [
+      "Raised $3M Undisclosed 4 days ago",
+      "Target sector: SaaS / Software",
+      "In target geography (New York, United States)",
+      "Verified email on company domain"
+    ],
+    "data_quality": 85,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [
+      {
+        "type": "role",
+        "email": "support@negosh.com",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/negosh"
+    },
+    "people": [
+      {
+        "name": "Ari Zebersky",
+        "title": "Founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 3100000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-08",
+        "lead_investors": [],
+        "investors": [],
+        "use_of_funds": null,
+        "summary": "Negosh recently disclosed a $3.1 million funding round via an SEC filing, providing capital to scale its IP licensing marketplace operations.",
+        "source_article_ids": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Meadow AI",
+    "domain": "meadow.ai",
+    "website": "https://www.meadow.ai/",
+    "website_source": "guessed",
+    "description": "Meadow AI is developing the retail and restaurant industries’ operational brains.",
+    "sector": "AI / ML",
+    "hq_city": "Seattle",
+    "hq_country": "United States",
+    "score": 84,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 24,
+      "reachability": 15
+    },
+    "score_reasons": [
+      "Raised $7M Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (Seattle, United States)",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 75,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "role",
+        "email": "support@meadow.ai",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      },
+      {
+        "type": "role",
+        "email": "careers@meadow.ai",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      },
+      {
+        "type": "role",
+        "email": "sales@meadow.ai",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Dragos Velicanu",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Max Sim",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Scott Liu",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 7000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Flying Fish Partners",
+          "Leadout Capital",
+          "TenOneTen Ventures",
+          "Ulu Ventures",
+          "Wedbush Ventures",
+          "York IE"
+        ],
+        "use_of_funds": null,
+        "summary": "Meadow AI raised $7M, increasing its total equity funding to $11.5M to develop operations software for retail and restaurants.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Quotr.ai",
+    "domain": "quotr.ai",
+    "website": "https://quotr.ai",
+    "website_source": "guessed",
+    "description": "Quotr.ai is an AI-powered construction estimation, takeoff, and procurement platform for subcontractors, general contractors, and developers.",
+    "sector": "AI / ML",
+    "hq_city": "Berkeley",
+    "hq_country": "United States",
+    "score": 83,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 21,
+      "reachability": 17
+    },
+    "score_reasons": [
+      "Raised $4M Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (Berkeley, United States)",
+      "Verified email on company domain"
+    ],
+    "data_quality": 85,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [
+      {
+        "type": "role",
+        "email": "contact@quotr.ai",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "twitter": "https://x.com/quotr_ai",
+      "linkedin": "https://linkedin.com/company/quotrai"
+    },
+    "people": [
+      {
+        "name": "Hanyang Liu",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Junzhe Shi",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 4000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Llama Ventures",
+          "SevenX Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "Quotr.ai raised $4M in new funding, bringing its total to $7.5M to scale its AI construction procurement platform.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Clasp",
+    "domain": "clasp.ai",
+    "website": "https://clasp.ai",
+    "website_source": "guessed",
+    "description": "Clasp provides an employee benefits infrastructure platform that powers benefits enrollment for brokerages and payroll platforms.",
+    "sector": "SaaS / Software",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 82,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 25,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $13M Undisclosed 4 days ago",
+      "Target sector: SaaS / Software",
+      "In target geography (New York, United States)",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/clasp-inc"
+    },
+    "people": [
+      {
+        "name": "Amar Jasarbasic",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Zach Zhang",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 13200000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-08",
+        "lead_investors": [],
+        "investors": [],
+        "use_of_funds": null,
+        "summary": "Clasp recently secured $13.2 million in funding via an SEC filing, indicating capital availability to upgrade its employee benefits infrastructure and brokerage tools.",
+        "source_article_ids": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "KONST",
+    "domain": "atptoken.ai",
+    "website": "https://atptoken.ai/",
+    "website_source": "article",
+    "description": "KONST is a Taiwan-based next-generation AI compute operator that provides a three-layer model of compute supply, cloud delivery, and AI governance for large enterprises.",
+    "sector": "AI / ML",
+    "hq_city": "Taipei",
+    "hq_country": "Taiwan",
+    "score": 82,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 23,
+      "reachability": 14
+    },
+    "score_reasons": [
+      "Raised $30M Series B 3 days ago",
+      "Target sector: AI / ML",
+      "Target stage: Series B"
+    ],
+    "data_quality": 72,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [
+      {
+        "type": "personal",
+        "email": "service@horizon-ai.ai",
+        "mx_valid": true,
+        "confidence": "medium",
+        "same_domain": false
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/horizon-ai-tw"
+    },
+    "people": [
+      {
+        "name": "Ben Chang",
+        "title": "Co-founder & Chairman",
+        "source": "article"
+      },
+      {
+        "name": "Jora Huang",
+        "title": "Chief Public Relations Officer",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series B",
+        "amount_usd": 30000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-09",
+        "lead_investors": [
+          "ADATA Technology"
+        ],
+        "investors": [
+          "ADATA Technology",
+          "M Mobility",
+          "Pegatron Venture Capital"
+        ],
+        "use_of_funds": "scale up its AI data center buildout across Asia and accelerate its Token Factory strategy",
+        "summary": "KONST just secured a $30M Series B to scale up its data center buildout across Asia and is actively expanding its team, making it an ideal time to reach out regarding enterprise AI compute and governance solutions.",
+        "source_article_ids": [
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Andera",
+    "domain": "andera.ai",
+    "website": "https://www.andera.ai/",
+    "website_source": "article",
+    "description": "Andera automates corporate audit and compliance tasks.",
+    "sector": "SaaS / Software",
+    "hq_city": null,
+    "hq_country": null,
+    "score": 81,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 24,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $37M Series A 7 days ago",
+      "Target sector: SaaS / Software",
+      "Target stage: Series A",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "role",
+        "email": "team@andera.ai",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {},
+    "people": [],
+    "funding_events": [
+      {
+        "round_type": "Series A",
+        "amount_usd": 37000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [
+          "Lightspeed"
+        ],
+        "investors": [
+          "Lightspeed"
+        ],
+        "use_of_funds": null,
+        "summary": "Andera recently raised a $37 million Series A from Lightspeed to scale its corporate audit and compliance automation platform.",
+        "source_article_ids": [
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Parakeet Health",
+    "domain": "parakeethealth.com",
+    "website": "https://parakeethealth.com",
+    "website_source": "guessed",
+    "description": "Parakeet Health is a AI contact center agent for healthcare practices.",
+    "sector": "Healthcare / Biotech",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 81,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 24,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $10M Undisclosed 7 days ago",
+      "Target sector: Healthcare / Biotech",
+      "In target geography (San Francisco, United States)",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/parakeet-health",
+      "crunchbase": "https://crunchbase.com/organization/parakeet-health"
+    },
+    "people": [
+      {
+        "name": "Aaron Lee",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Eric Mao",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Jung Park",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 10000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Blank Ventures",
+          "Canvas Prime",
+          "HMC INQ",
+          "StoryHouse Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "Parakeet Health raised $10M, bringing its total equity funding to $13M to scale its AI healthcare contact center agent platform.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "PreciseDx",
+    "domain": "precisedx.ai",
+    "website": "https://www.precisedx.ai/",
+    "website_source": "guessed",
+    "description": "PreciseDx operates a digital pathology platform that uses AI to assess breast cancer risk.",
+    "sector": "Healthcare / Biotech",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 80,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 23,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $4M Undisclosed 4 days ago",
+      "Target sector: Healthcare / Biotech",
+      "In target geography (New York, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/precisedx"
+    },
+    "people": [
+      {
+        "name": "Gerardo Fernandez",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Jack Zeineh",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 3700000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-08",
+        "lead_investors": [],
+        "investors": [],
+        "use_of_funds": null,
+        "summary": "PreciseDx reported a $3.7 million funding round through an SEC filing to advance its digital pathology platform for breast cancer risk assessment.",
+        "source_article_ids": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Santé",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Santé provides an AI-powered operating system and point-of-sale platform built specifically for independent wine and spirits retailers.",
+    "sector": "SaaS / Software",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 80,
+    "score_breakdown": {
+      "fit": 40,
+      "size": 15,
+      "timing": 22,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $15M Series A 6 days ago",
+      "Target sector: SaaS / Software",
+      "In target geography (New York, United States)",
+      "Target stage: Series A",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Darren Fike",
+        "title": "Founder & CEO",
+        "source": "article"
+      },
+      {
+        "name": "Antoine Balaresque",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series A",
+        "amount_usd": 15000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-06",
+        "lead_investors": [
+          "FINTOP",
+          "FINTOP Capital"
+        ],
+        "investors": [
+          "FINTOP",
+          "Bonfire Ventures",
+          "Operator Collective",
+          "Veridical Ventures",
+          "TipTop VC",
+          "FINTOP Capital",
+          "Y Combinator"
+        ],
+        "use_of_funds": "Supercharge expansion to thousands of more stores and scale engineering and go-to-market teams.",
+        "summary": "Santé recently raised a $15M Series A and is actively expanding its engineering and go-to-market teams to scale its AI-powered platform across thousands of independent liquor stores.",
+        "source_article_ids": [
+          4,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Vesta",
+    "domain": "vesta.com",
+    "website": "https://www.vesta.com/",
+    "website_source": "article",
+    "description": "Vesta is an AI-native software startup that helps mortgage lenders automate the loan origination process using AI agents.",
+    "sector": "SaaS / Software",
+    "hq_city": null,
+    "hq_country": null,
+    "score": 80,
+    "score_breakdown": {
+      "fit": 20,
+      "size": 15,
+      "timing": 25,
+      "reachability": 20
+    },
+    "score_reasons": [
+      "Raised $30M Undisclosed 4 days ago",
+      "Target sector: SaaS / Software",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 100,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "role",
+        "email": "hello@vesta.com",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [
+      {
+        "e164": "+14152160103",
+        "region": "US",
+        "display": "+1 415-216-0103"
+      }
+    ],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/usevesta",
+      "crunchbase": "https://crunchbase.com/organization/vesta-431c"
+    },
+    "people": [
+      {
+        "name": "Mike Yu",
+        "title": "Co-founder & CEO",
+        "source": "article"
+      },
+      {
+        "name": "Devon Yang",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 30000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-08",
+        "lead_investors": [
+          "Conversion Capital"
+        ],
+        "investors": [
+          "Conversion Capital",
+          "Pennymac",
+          "New American Funding",
+          "Citi Ventures",
+          "Andreessen Horowitz"
+        ],
+        "use_of_funds": "Staff up, take the market, and invest in new product lines",
+        "summary": "Vesta just raised a $30 million round and is actively looking to staff up and expand its product lines as demand for its AI agents explodes.",
+        "source_article_ids": [
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Wally",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Wally offers a preventative, subscription-based oral healthcare membership that provides unlimited cleanings, exams, diagnostics, and whitening.",
+    "sector": "Healthcare / Biotech",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 80,
+    "score_breakdown": {
+      "fit": 40,
+      "size": 15,
+      "timing": 22,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $25M Series A 5 days ago",
+      "Target sector: Healthcare / Biotech",
+      "In target geography (New York, United States)",
+      "Target stage: Series A",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Tyler Burnett",
+        "title": "Cofounder & CEO",
+        "source": "article"
+      },
+      {
+        "name": "Stipe Latkovic",
+        "title": "Cofounder",
+        "source": "article"
+      },
+      {
+        "name": "Chelsea Patel",
+        "title": "Cofounder",
+        "source": "article"
+      },
+      {
+        "name": "Chelsea Acosta Patel",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series A",
+        "amount_usd": 25000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-07",
+        "lead_investors": [
+          "Maveron"
+        ],
+        "investors": [
+          "Maveron",
+          "Bling Capital",
+          "Jack Abraham"
+        ],
+        "use_of_funds": "Expand from 15 locations to 100 by the end of 2027 and scale footprint into new metropolitan hubs.",
+        "summary": "Wally just raised a $25M Series A and is aggressively hiring top-tier clinicians and operational leaders to power its expansion into new metropolitan hubs like Washington DC, Atlanta, Austin, and Miami.",
+        "source_article_ids": [
+          2,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Ascerta",
+    "domain": "ascerta.com",
+    "website": "https://ascerta.com",
+    "website_source": "guessed",
+    "description": "Ascerta offers an enterprise AI management platform.",
+    "sector": "AI / ML",
+    "hq_city": "Redmond",
+    "hq_country": "United States",
+    "score": 78,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 21,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $18M Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (Redmond, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/ascerta-corp"
+    },
+    "people": [
+      {
+        "name": "David Tepper",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Doron Holan",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Erik Winters",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 18000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Benhamou Global Ventures",
+          "Dell Technologies Capital",
+          "Hitachi Ventures",
+          "Wipro Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "Ascerta secured $18M in new funding, pushing its total equity funding to $26M to scale its enterprise AI management platform.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Kapta Space",
+    "domain": "kaptaspace.com",
+    "website": "https://www.kaptaspace.com/",
+    "website_source": "article",
+    "description": "Kapta Space builds lower-cost, steerable radar sensors using metamaterials for satellites.",
+    "sector": "Aerospace / Defense",
+    "hq_city": "Seattle",
+    "hq_country": "United States",
+    "score": 77,
+    "score_breakdown": {
+      "fit": 20,
+      "size": 15,
+      "timing": 25,
+      "reachability": 17
+    },
+    "score_reasons": [
+      "Raised $24M Series A 3 days ago",
+      "In target geography (Seattle, United States)",
+      "Target stage: Series A",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 85,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "role",
+        "email": "info@kaptaspace.com",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/kapta-space"
+    },
+    "people": [
+      {
+        "name": "Milton Perque",
+        "title": "Founder and CEO",
+        "source": "article"
+      },
+      {
+        "name": "Adam Bily",
+        "title": null,
+        "source": "article"
+      },
+      {
+        "name": "Mina Faltas",
+        "title": "Founder and CEO",
+        "source": "article"
+      },
+      {
+        "name": "Ben Hemani",
+        "title": "Founding Partner",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series A",
+        "amount_usd": 24000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-09",
+        "lead_investors": [
+          "Washington Harbour Partners",
+          "Bison Ventures"
+        ],
+        "investors": [
+          "Washington Harbour Partners",
+          "Bison Ventures",
+          "MetaVC Partners",
+          "MYDA Capital",
+          "Entrada Ventures",
+          "Aurelia Foundry",
+          "Fitz Gate Ventures",
+          "MetaVC"
+        ],
+        "use_of_funds": "scale production and meet growing demand for defense intelligence contracts",
+        "summary": "Kapta Space just raised a $24 million Series A round to expand manufacturing and qualify its hardware for spaceflight, making it an ideal time to pitch infrastructure and scaling solutions.",
+        "source_article_ids": [
+          11,
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Mecka AI",
+    "domain": "mecka.ai",
+    "website": "https://www.mecka.ai/news/series-b",
+    "website_source": "article",
+    "description": "Mecka AI collects and analyzes human motion data to train humanoid and other robots.",
+    "sector": "AI / ML",
+    "hq_city": null,
+    "hq_country": null,
+    "score": 77,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 25,
+      "reachability": 7
+    },
+    "score_reasons": [
+      "Raised $60M Series B 5 days ago",
+      "Target sector: AI / ML",
+      "Target stage: Series B",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 35,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [],
+    "funding_events": [
+      {
+        "round_type": "Series B",
+        "amount_usd": 60000000.0,
+        "valuation_usd": 500000000.0,
+        "announced_on": "2026-10-07",
+        "lead_investors": [
+          "Sequoia"
+        ],
+        "investors": [
+          "Sequoia",
+          "Nvidia",
+          "M12"
+        ],
+        "use_of_funds": null,
+        "summary": "Mecka AI just raised a $60 million Series B round led by Sequoia with participation from Nvidia and Microsoft’s M12, indicating fresh capital for scaling their robot training data operations.",
+        "source_article_ids": [
+          43
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Factory",
+    "domain": "factory.com",
+    "website": "https://factory.com/news/5-billion-valuation",
+    "website_source": "article",
+    "description": "Factory is an AI coding startup that builds software systems.",
+    "sector": "AI / ML",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 76,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 5,
+      "timing": 24,
+      "reachability": 17
+    },
+    "score_reasons": [
+      "Raised Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (San Francisco, United States)",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 85,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "role",
+        "email": "contact@factory.com",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "github": "https://github.com/Factory-AI",
+      "twitter": "https://x.com/FactoryAI",
+      "linkedin": "https://linkedin.com/company/factory-hq"
+    },
+    "people": [
+      {
+        "name": "Matan Grinberg",
+        "title": "Co-founder & CEO",
+        "source": "article"
+      },
+      {
+        "name": "Chris Degnan",
+        "title": null,
+        "source": "article"
+      },
+      {
+        "name": "Chad Peets",
+        "title": null,
+        "source": "article"
+      },
+      {
+        "name": "Vinod Khosla",
+        "title": null,
+        "source": "article"
+      },
+      {
+        "name": "Keith Rabois",
+        "title": null,
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": null,
+        "valuation_usd": 5000000000.0,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Menlo Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "Factory recently secured a significant investment from Menlo Ventures following a public feud and high-profile valuation of $5 billion, making it an opportune time to reach out amidst their rapid scaling and industry spotlight.",
+        "source_article_ids": [
+          36
+        ]
+      },
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 200000000.0,
+        "valuation_usd": 5000000000.0,
+        "announced_on": "2026-09-30",
+        "lead_investors": [],
+        "investors": [
+          "Khosla Ventures",
+          "Blackstone",
+          "Sequoia Capital",
+          "Insight Partners"
+        ],
+        "use_of_funds": null,
+        "summary": "Factory recently raised $200 million at a $5 billion valuation and is currently navigating high-profile leadership and board governance controversies regarding competitive intelligence.",
+        "source_article_ids": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Capitolis",
+    "domain": "capitolis.com",
+    "website": "https://capitolis.com",
+    "website_source": "guessed",
+    "description": "Capitolis is a capital markets technology platform that helps banks and institutional investors optimize capital and reduce risk.",
+    "sector": "Fintech",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 75,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 8,
+      "timing": 25,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $120M Series D+ 6 days ago",
+      "Target sector: Fintech",
+      "In target geography (New York, United States)",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "twitter": "https://twitter.com/Capitolis_Inc",
+      "linkedin": "https://linkedin.com/company/capitolis.com"
+    },
+    "people": [
+      {
+        "name": "Gil Mandelzis",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Igor Teleshevsky",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Thomas Glocer",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series D+",
+        "amount_usd": 120000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-06",
+        "lead_investors": [
+          "Citi"
+        ],
+        "investors": [
+          "Citi",
+          "Bank of America",
+          "Nomura",
+          "Tradeweb",
+          "Barclays",
+          "BNP Paribas",
+          "JP Morgan",
+          "State Street",
+          "UBS"
+        ],
+        "use_of_funds": null,
+        "summary": "Capitolis recently raised a $120M Series E round, indicating strong financial backing and potential for expansive infrastructure or vendor investments.",
+        "source_article_ids": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "EliseAI",
+    "domain": "eliseai.com",
+    "website": "https://eliseai.com",
+    "website_source": "guessed",
+    "description": "EliseAI is an AI-driven company that offers automation, streamlining workflows, and unique needs of housing and healthcare operations.",
+    "sector": "AI / ML",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 74,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 8,
+      "timing": 24,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $350M Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (New York, United States)",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "twitter": "https://twitter.com/eliseai",
+      "linkedin": "https://linkedin.com/company/eliseai"
+    },
+    "people": [
+      {
+        "name": "Carrie Murphy",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Minna Song",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Stoyan Stoyanov",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 350000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Andreessen Horowitz",
+          "Bessemer Venture Partners",
+          "Navitas Capital",
+          "Ontario Teachers’ Pension Plan",
+          "Sapphire Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "EliseAI raised a massive $350M round, bringing its total equity funding to $741.9M to scale its operations automation technology.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "General Intuition",
+    "domain": "generalintuition.com",
+    "website": "https://www.generalintuition.com/",
+    "website_source": "guessed",
+    "description": "General Intuition is a frontier research lab focused on teaching machines to learn and adapt through play.",
+    "sector": "AI / ML",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 74,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 8,
+      "timing": 24,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $220M Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (New York, United States)",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "github": "https://github.com/mira-wm",
+      "twitter": "https://x.com/gen_intuition",
+      "linkedin": "https://linkedin.com/company/generalintuition"
+    },
+    "people": [
+      {
+        "name": "Moritz Baier-Lentz",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Pim de Witte",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 220000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Atreides Management",
+          "General Catalyst",
+          "Khosla Ventures",
+          "Point72",
+          "Seven Seven Six",
+          "Valor Equity Partners"
+        ],
+        "use_of_funds": null,
+        "summary": "General Intuition secured $220M in new capital, bringing its total funding to $673.7M to advance its frontier research lab.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Supabase",
+    "domain": "supabase.com",
+    "website": "https://supabase.com",
+    "website_source": "guessed",
+    "description": "Supabase offers an open source backend platform for app development built around a managed PostgreSQL database and tools.",
+    "sector": "SaaS / Software",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 74,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 8,
+      "timing": 24,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $150M Undisclosed 7 days ago",
+      "Target sector: SaaS / Software",
+      "In target geography (San Francisco, United States)",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "github": "https://github.com/supabase",
+      "twitter": "https://twitter.com/supabase",
+      "linkedin": "https://linkedin.com/company/supabase"
+    },
+    "people": [
+      {
+        "name": "Anthony Wilson",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Paul Copplestone",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 150000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "CapitalG",
+          "GIC",
+          "IronArc Ventures",
+          "Square Peg Capital"
+        ],
+        "use_of_funds": null,
+        "summary": "Supabase raised $150M to scale its open-source backend platform, bringing its total funding to $1.3B.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Ghost",
+    "domain": "ghost.ai",
+    "website": "https://ghost.ai",
+    "website_source": "guessed",
+    "description": "Ghost builds Core, a $3,499 personal computer designed specifically to run AI agents and centralize personal data.",
+    "sector": "Hardware / Robotics",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 73,
+    "score_breakdown": {
+      "fit": 20,
+      "size": 15,
+      "timing": 21,
+      "reachability": 17
+    },
+    "score_reasons": [
+      "Raised $11M Seed 7 days ago",
+      "In target geography (San Francisco, United States)",
+      "Target stage: Seed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 85,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [
+      {
+        "type": "role",
+        "email": "support@ghost.ai",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "twitter": "https://x.com/zainmfj",
+      "linkedin": "https://linkedin.com/company/try-ghost-ai"
+    },
+    "people": [
+      {
+        "name": "Zain Javaid",
+        "title": "Co-founder & CEO",
+        "source": "article"
+      },
+      {
+        "name": "Nicholas Chua",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Yifei Chen",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Gautam Sharda",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Seed",
+        "amount_usd": 11000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [
+          "Andreessen Horowitz"
+        ],
+        "investors": [
+          "Andreessen Horowitz",
+          "Abstract",
+          "Audacious Ventures",
+          "SV Angel",
+          "Nova"
+        ],
+        "use_of_funds": null,
+        "summary": "Ghost has just emerged from stealth with an $11 million seed round led by Andreessen Horowitz and is opening preorders for its first personal AI computer, Core.",
+        "source_article_ids": [
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "GMI Cloud",
+    "domain": "gmicloud.ai",
+    "website": "https://www.gmicloud.ai/en",
+    "website_source": "guessed",
+    "description": "GMI Cloud provides cloud infrastructure for AI workloads, including GPU computing, model inference, and AI agent runtime services.",
+    "sector": "AI / ML",
+    "hq_city": "Mountain View",
+    "hq_country": "United States",
+    "score": 71,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 8,
+      "timing": 21,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $223M Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (Mountain View, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "twitter": "https://x.com/gmi_cloud",
+      "linkedin": "https://linkedin.com/company/gmi-cloud-ai"
+    },
+    "people": [
+      {
+        "name": "Alex Yeh",
+        "title": "Founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 223000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "ARCHIV",
+          "DSC Investment",
+          "KB Investment",
+          "KT Engineering Corporation",
+          "Kyobo Life Insurance",
+          "NVIDIA",
+          "Redwood Partners",
+          "Trend Micro"
+        ],
+        "use_of_funds": null,
+        "summary": "GMI Cloud raised $223M, backed by companies like NVIDIA, to expand its cloud infrastructure services for AI workloads.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Daptic",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Daptic develops regulatory intelligence software that helps companies track, analyze, and manage global compliance requirements.",
+    "sector": "SaaS / Software",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 69,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $15M Undisclosed 7 days ago",
+      "Target sector: SaaS / Software",
+      "In target geography (New York, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Baptiste Bouvier",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Gabby Finear",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Hannah Collins",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 15000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "8VC",
+          "Canvas Prime",
+          "IA Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "Daptic raised $15M in fresh funding, bringing its total to $15.2M to expand its regulatory intelligence and compliance software.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Dodge AI",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Dodge AI is an enterprise automation platform that specializes in ERP maintenance.",
+    "sector": "AI / ML",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 69,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $3M Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (San Francisco, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Aditya Thakur",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Rebhav Bharadwaj",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 2700000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Accel",
+          "Antler",
+          "Google AI Futures Fund",
+          "NewBuild Venture Capital",
+          "Schema Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "Dodge AI raised $2.7M, bringing its total equity funding to $4.7M to support its enterprise automation and ERP maintenance platform.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Halluminates",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Halluminate develops benchmarks and reinforcement-learning environments for evaluating AI systems on knowledge-work tasks.",
+    "sector": "AI / ML",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 69,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $30M Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (San Francisco, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Jerry Wu",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Wyatt Marshall",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 30000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Financial Technology Partners",
+          "Heavybit",
+          "Oak HC/FT",
+          "Orange Collective",
+          "Y Combinator"
+        ],
+        "use_of_funds": null,
+        "summary": "Halluminates raised $30M to grow its total funding to $30.5M and expand its AI evaluation benchmarks.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Instinct",
+    "domain": "instinct.com",
+    "website": "https://instinct.com",
+    "website_source": "guessed",
+    "description": "Instinct provides a personal assistant that connects with applications and devices to help manage everyday tasks and information.",
+    "sector": "AI / ML",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 69,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 8,
+      "timing": 21,
+      "reachability": 10
+    },
+    "score_reasons": [
+      "Raised $1.0B Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (San Francisco, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 50,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Noah Shinn",
+        "title": "Founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 1000000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Benchmark",
+          "Coatue",
+          "Sequoia Capital"
+        ],
+        "use_of_funds": null,
+        "summary": "Instinct raised a massive $1B funding round from top-tier firms like Sequoia Capital and Benchmark, bringing its total funding to $1.3B.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Limited",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Limited is a business financial platform that provides multi-country accounts, corporate cards, bill payments, and treasury services.",
+    "sector": "Fintech",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 69,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $18M Undisclosed 7 days ago",
+      "Target sector: Fintech",
+      "In target geography (San Francisco, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Hussein Ahmed",
+        "title": "Founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 18500000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "1982 Ventures",
+          "Collab+Currency",
+          "Digital Currency Group",
+          "North Island Ventures",
+          "Onigiri Capital",
+          "ParaFi Capital",
+          "Pharsalus Capital",
+          "The House Fund",
+          "Third Prime"
+        ],
+        "use_of_funds": null,
+        "summary": "Limited raised $18.5M in new funding, bringing its total equity funding to $28.5M to scale its multi-country financial platform.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Menos AI",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Menos AI develops AI-driven agentic workforces to optimize asset management, automate tasks, and analyze data.",
+    "sector": "AI / ML",
+    "hq_city": "Chandler",
+    "hq_country": "United States",
+    "score": 69,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $5M Undisclosed 7 days ago",
+      "Target sector: AI / ML",
+      "In target geography (Chandler, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Baojiang Yang",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Junchen Wu",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Xiang Pan",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 5100000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Alpha Square Group",
+          "Copper Sky Capital"
+        ],
+        "use_of_funds": null,
+        "summary": "Menos AI secured $5.1M in new funding, bringing its total to $10.3M to expand its AI-driven agentic workforce platform.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Relay",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Relay is a cloud based communication platform that offers team communications, operational insights, and workers safety for the leaders.",
+    "sector": "SaaS / Software",
+    "hq_city": "Raleigh",
+    "hq_country": "United States",
+    "score": 69,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 15,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $36M Undisclosed 7 days ago",
+      "Target sector: SaaS / Software",
+      "In target geography (Raleigh, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Chris Chuang",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "David Morken",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 36000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Cerity Partners Ventures",
+          "G2 Venture Partners",
+          "Harmonic Growth Partners",
+          "International Paper",
+          "Thayer Investment Partners",
+          "Wind River Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "Relay raised $36M, bringing its total equity funding to $91.1M to grow its cloud-based worker communication platform.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Valon",
+    "domain": "valon.com",
+    "website": "https://valon.com",
+    "website_source": "guessed",
+    "description": "Valon is a mortgage servicing platform that uses AI agents to automate loan servicing workflows.",
+    "sector": "Fintech",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 69,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 8,
+      "timing": 21,
+      "reachability": 10
+    },
+    "score_reasons": [
+      "Raised $150M Series D+ 7 days ago",
+      "Target sector: Fintech",
+      "In target geography (New York, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 50,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Andrew Wang",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Jonathan Hsu",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Linda Du",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series D+",
+        "amount_usd": 150000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Ribbit Capital",
+          "Andreessen Horowitz"
+        ],
+        "use_of_funds": null,
+        "summary": "Valon recently secured a $150M Series D funding round, providing them with significant capital to scale their AI-driven mortgage servicing workflows.",
+        "source_article_ids": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Chiplytics",
+    "domain": "chiplytics.com",
+    "website": "https://chiplytics.com/",
+    "website_source": "article",
+    "description": "Chiplytics provides authentication and quality screening of semiconductor chips and other critical electronic components using AI, automation, and robotics.",
+    "sector": "Hardware / Robotics",
+    "hq_city": "Seattle",
+    "hq_country": "United States",
+    "score": 67,
+    "score_breakdown": {
+      "fit": 20,
+      "size": 15,
+      "timing": 22,
+      "reachability": 10
+    },
+    "score_reasons": [
+      "Raised $4M Seed 6 days ago",
+      "In target geography (Seattle, United States)",
+      "Target stage: Seed",
+      "No public email found yet"
+    ],
+    "data_quality": 50,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Stephen DiBartolomeo",
+        "title": "President and Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Steven Dourmashkin",
+        "title": "CEO and Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Connor Dempsey",
+        "title": "Chief Technology Officer",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Seed",
+        "amount_usd": 4500000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-06",
+        "lead_investors": [
+          "Scout Ventures",
+          "Waypoint Ventures"
+        ],
+        "investors": [
+          "Scout Ventures",
+          "Waypoint Ventures",
+          "QKSS",
+          "Industrious Ventures",
+          "Interwoven Ventures",
+          "Seattle Alliance of Angels",
+          "Cornell University’s Red Bear Angels"
+        ],
+        "use_of_funds": "To support the deployment of its microelectronics verification technology and the opening of an inspection facility in Bellport, N.Y.",
+        "summary": "Chiplytics recently raised $4.5 million in funding and is expanding its operations by opening a new inspection facility in Bellport, New York, making it an opportune time to offer infrastructure or vendor solutions.",
+        "source_article_ids": [
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Armadin",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Armadin develops an AI-native cybersecurity platform that helps organizations identify and validate exploitable security risks.",
+    "sector": "Cybersecurity",
+    "hq_city": "Palo Alto",
+    "hq_country": "United States",
+    "score": 62,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 8,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $256M Undisclosed 7 days ago",
+      "Target sector: Cybersecurity",
+      "In target geography (Palo Alto, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "David Slater",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Evan Pena",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Kevin Mandia",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Travis Lanham",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 255500000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "8VC",
+          "Accel",
+          "Andreessen Horowitz",
+          "Bain Capital Ventures",
+          "Ballistic Ventures",
+          "Google Ventures",
+          "IQT",
+          "Kleiner Perkins",
+          "Menlo Ventures",
+          "Redpoint"
+        ],
+        "use_of_funds": null,
+        "summary": "Armadin raised a massive $255.5M round, bringing its total equity funding to $444.7M, indicating major capital deployment for its AI-native cybersecurity platform.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Jeeves",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Jeeves is a global finance platform that saves businesses time & money by simplifying their financial operations.",
+    "sector": "Fintech",
+    "hq_city": "Miami",
+    "hq_country": "United States",
+    "score": 62,
+    "score_breakdown": {
+      "fit": 30,
+      "size": 8,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $110M Undisclosed 7 days ago",
+      "Target sector: Fintech",
+      "In target geography (Miami, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Dileep Thazhmon",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Sherwin Gandhi",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 110000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "AllianceBernstein",
+          "Andreessen Horowitz",
+          "Coinbase Ventures",
+          "CoinFund",
+          "CRV",
+          "GIC",
+          "Global PayTech Ventures",
+          "ParaFi Capital",
+          "Vista Equity Partners",
+          "Wintermute Ventures",
+          "Y Combinator"
+        ],
+        "use_of_funds": null,
+        "summary": "Jeeves secured $110M to expand its global finance platform, bringing its total equity funding to $378M.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Modern Classrooms Project",
+    "domain": "modernclassrooms.org",
+    "website": "https://www.modernclassrooms.org/",
+    "website_source": "article",
+    "description": "Modern Classrooms Project is a nonprofit organization that builds free math curricula grounded in cognitive science and empowers educators to transform their classrooms.",
+    "sector": "Education",
+    "hq_city": "Washington",
+    "hq_country": "United States",
+    "score": 62,
+    "score_breakdown": {
+      "fit": 10,
+      "size": 15,
+      "timing": 25,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $12M Undisclosed 3 days ago",
+      "In target geography (Washington, United States)",
+      "Actively hiring - budget is being deployed",
+      "No public email found yet"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [],
+    "phones": [],
+    "socials": {
+      "twitter": "https://x.com/modernclassproj",
+      "linkedin": "https://linkedin.com/company/modernclassproj"
+    },
+    "people": [
+      {
+        "name": "Kareem Farah",
+        "title": "CEO and Co-Founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 12000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-09",
+        "lead_investors": [
+          "Skeebo Foundation"
+        ],
+        "investors": [
+          "Skeebo Foundation"
+        ],
+        "use_of_funds": "To build a complete Tier 1 math curriculum grounded in cognitive science.",
+        "summary": "Modern Classrooms Project has raised $12 million to build and launch a free, cognitive science-based math curriculum starting in summer 2027, presenting an opportunity to engage with their leadership and research initiatives.",
+        "source_article_ids": [
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Beyond Reach Labs",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Beyond Reach Labs builds deployable solar arrays for space infrastructure like satellites and orbital data centers.",
+    "sector": "Aerospace / Defense",
+    "hq_city": "Brooklyn",
+    "hq_country": "United States",
+    "score": 60,
+    "score_breakdown": {
+      "fit": 20,
+      "size": 15,
+      "timing": 22,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $10M Seed 6 days ago",
+      "In target geography (Brooklyn, United States)",
+      "Target stage: Seed",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Mitchell Fogelson",
+        "title": "Cofounder & CEO",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Seed",
+        "amount_usd": 10000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-06",
+        "lead_investors": [
+          "Interlagos"
+        ],
+        "investors": [
+          "Interlagos",
+          "Y Combinator",
+          "Augur",
+          "TerraForge",
+          "Off Piste"
+        ],
+        "use_of_funds": "Increasing capacity, supporting sales, advancing technology, and upstarting manufacturing",
+        "summary": "Beyond Reach Labs recently raised a $10M seed round and is scaling up manufacturing at a new facility in Industry City to meet growing power demands for upcoming satellite constellations.",
+        "source_article_ids": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Oxide Computer Company",
+    "domain": "oxide.computer",
+    "website": "https://oxide.computer",
+    "website_source": "article",
+    "description": "Oxide Computer Company builds the Oxide Cloud Computer, a rack-scale integrated system with purpose-built hardware and open-source software that brings hyperscale cloud computing to on-premises data centers.",
+    "sector": "Hardware / Robotics",
+    "hq_city": "Emeryville",
+    "hq_country": "United States",
+    "score": 60,
+    "score_breakdown": {
+      "fit": 10,
+      "size": 8,
+      "timing": 25,
+      "reachability": 17
+    },
+    "score_reasons": [
+      "Raised $445M Series D+ 3 days ago",
+      "In target geography (Emeryville, United States)",
+      "Actively hiring - budget is being deployed",
+      "Verified email on company domain"
+    ],
+    "data_quality": 85,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "role",
+        "email": "sales@oxide.computer",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "github": "https://github.com/oxidecomputer",
+      "twitter": "https://twitter.com/random_enginerd",
+      "linkedin": "https://linkedin.com/company/oxidecomputer"
+    },
+    "people": [
+      {
+        "name": "Steve Tuck",
+        "title": "Co-founder & CEO",
+        "source": "article"
+      },
+      {
+        "name": "Bryan Cantrill",
+        "title": "CTO and co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Series D+",
+        "amount_usd": 445000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-09",
+        "lead_investors": [
+          "Eclipse"
+        ],
+        "investors": [
+          "Eclipse",
+          "US Innovative Technology Fund (USIT)",
+          "Riot Ventures",
+          "Jane Street",
+          "Atreides Management",
+          "AMD Ventures"
+        ],
+        "use_of_funds": "Secure components, increase manufacturing, and serve new and existing customers.",
+        "summary": "Oxide has scaled its manufacturing capacity by 20x over the past 12 months with demand exceeding supply and recently reached profitability, making them a well-capitalized partner for scaling complex IT and AI infrastructure workloads on-premises.",
+        "source_article_ids": [
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "snag",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "snag is a Brooklyn-based marketplace that provides verified listings, escrow, and AI matching for NYC sublets and lease takeovers.",
+    "sector": "Real Estate / PropTech",
+    "hq_city": "Brooklyn",
+    "hq_country": "United States",
+    "score": 57,
+    "score_breakdown": {
+      "fit": 20,
+      "size": 15,
+      "timing": 19,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $4M Seed 10 days ago",
+      "In target geography (Brooklyn, United States)",
+      "Target stage: Seed",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Selin Sonmez",
+        "title": "Co-founder & CEO",
+        "source": "article"
+      },
+      {
+        "name": "Niko Georgantas",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Seed",
+        "amount_usd": 4000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-02",
+        "lead_investors": [
+          "Slow Ventures"
+        ],
+        "investors": [
+          "Slow Ventures",
+          "Precursor Ventures",
+          "Long Journey Ventures",
+          "Chamaeleon",
+          "Brian Kelly",
+          "Sloane Stephens"
+        ],
+        "use_of_funds": null,
+        "summary": "snag recently secured $4M in Seed funding to expand beyond New York City and scale its platform infrastructure for flexible urban housing. Reaching out now allows you to engage with their leadership as they enter their next growth phase and build out new creator programs.",
+        "source_article_ids": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Satlyt",
+    "domain": "satlyt.ai",
+    "website": "https://satlyt.ai",
+    "website_source": "guessed",
+    "description": "Satlyt develops software infrastructure for in-orbit computing that enables satellites to process data workloads directly in space.",
+    "sector": "Aerospace / Defense",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "score": 56,
+    "score_breakdown": {
+      "fit": 10,
+      "size": 15,
+      "timing": 21,
+      "reachability": 10
+    },
+    "score_reasons": [
+      "Raised $8M Undisclosed 7 days ago",
+      "In target geography (San Francisco, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 50,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Rama Afullo",
+        "title": "Founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 8000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Antler",
+          "Askya Investment Partners",
+          "Axian Investment Partners",
+          "Black Angel Group",
+          "Demos Funds",
+          "Enza Capital",
+          "Gaingels",
+          "Launch Africa",
+          "non sibi ventures",
+          "Slauson & Co.",
+          "TLcom Capital Partners"
+        ],
+        "use_of_funds": null,
+        "summary": "Satlyt raised $8M to scale its in-orbit computing software infrastructure for satellites, reaching $8.3M in total funding.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "SiMa.ai",
+    "domain": "sima.ai",
+    "website": "https://sima.ai",
+    "website_source": "guessed",
+    "description": "SiMa.ai develops hardware and software for deploying physical AI applications at the edge.",
+    "sector": "Hardware / Robotics",
+    "hq_city": "San Jose",
+    "hq_country": "United States",
+    "score": 54,
+    "score_breakdown": {
+      "fit": 10,
+      "size": 8,
+      "timing": 24,
+      "reachability": 12
+    },
+    "score_reasons": [
+      "Raised $150M Undisclosed 7 days ago",
+      "In target geography (San Jose, United States)",
+      "Actively hiring - budget is being deployed"
+    ],
+    "data_quality": 60,
+    "enrich_status": "ok",
+    "hiring": true,
+    "emails": [
+      {
+        "type": "personal",
+        "email": "johndoe@company.com",
+        "mx_valid": false,
+        "confidence": "low",
+        "same_domain": false
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "twitter": "https://x.com/sima_inc",
+      "linkedin": "https://linkedin.com/company/sima-ai"
+    },
+    "people": [
+      {
+        "name": "Krishna Rangasayee",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Steven J. Rosston",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 150000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "AllianceBernstein",
+          "Alter Venture Partners",
+          "Amplify Partners",
+          "Baron Capital",
+          "Dell Technologies Capital",
+          "Fidelity",
+          "JP Morgan",
+          "Maverick Capital",
+          "+ND Capital",
+          "State of Michigan",
+          "StepStone Group"
+        ],
+        "use_of_funds": null,
+        "summary": "SiMa.ai raised $150M, pushing its total equity funding to $505M to advance its edge AI hardware and software solutions.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Apollo Atomics",
+    "domain": "apolloatomics.com",
+    "website": "https://www.apolloatomics.com/",
+    "website_source": "guessed",
+    "description": "Apollo Atomics is the developer of a nuclear technology designed to provide sustainable power and to meet energy demands with deployment.",
+    "sector": "Climate / Energy",
+    "hq_city": "Cambridge",
+    "hq_country": "United States",
+    "score": 52,
+    "score_breakdown": {
+      "fit": 10,
+      "size": 4,
+      "timing": 21,
+      "reachability": 17
+    },
+    "score_reasons": [
+      "Raised $620K Undisclosed 7 days ago",
+      "In target geography (Cambridge, United States)",
+      "Verified email on company domain"
+    ],
+    "data_quality": 85,
+    "enrich_status": "ok",
+    "hiring": false,
+    "emails": [
+      {
+        "type": "role",
+        "email": "contact@apolloatomics.com",
+        "mx_valid": true,
+        "confidence": "high",
+        "same_domain": true
+      }
+    ],
+    "phones": [],
+    "socials": {
+      "linkedin": "https://linkedin.com/company/apollo-atomics"
+    },
+    "people": [
+      {
+        "name": "Assil Halimi",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Drew Walker",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 620000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Alumni Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "Apollo Atomics recently secured $620K in new funding, bringing its total equity funding to $27.1M to advance its nuclear technology for sustainable power.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Atomic",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Atomic provides supply chain planning software for managing demand, inventory, purchasing, manufacturing, and shipments.",
+    "sector": "Logistics / Supply Chain",
+    "hq_city": "Boston",
+    "hq_country": "United States",
+    "score": 49,
+    "score_breakdown": {
+      "fit": 10,
+      "size": 15,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $12M Undisclosed 7 days ago",
+      "In target geography (Boston, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Jeff Goodrich",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Michael Rossiter",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Neal Suidan",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 12500000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "DVx Ventures",
+          "Klass Capital",
+          "Madrona"
+        ],
+        "use_of_funds": null,
+        "summary": "Atomic raised $12.5M to expand its supply chain planning software solutions, bringing its total funding to $15.5M.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Efficient Computer",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Efficient Computer is a semiconductor technology company developing energy-efficient computing solutions based on its Fabric architecture.",
+    "sector": "Hardware / Robotics",
+    "hq_city": "Pittsburgh",
+    "hq_country": "United States",
+    "score": 49,
+    "score_breakdown": {
+      "fit": 10,
+      "size": 15,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $97M Undisclosed 7 days ago",
+      "In target geography (Pittsburgh, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Alex Hawkinson",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Brandon Lucia",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Graham Gobieski",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Nathan Beckmann",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 97000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Borderless Capital",
+          "Eclipse",
+          "Giant Ventures",
+          "Mana Ventures",
+          "Overmatch Ventures",
+          "Sahin Boydas",
+          "TF Capital",
+          "TO ventures",
+          "Toyota Ventures",
+          "TQ Ventures",
+          "Triatomic Capital",
+          "Union Square Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "Efficient Computer raised $97M to scale its semiconductor technology and energy-efficient computing solutions, reaching $173M in total funding.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Quartermaster AI",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Quartermaster AI develops maritime technology designed to improve ocean awareness and vessel safety.",
+    "sector": "Aerospace / Defense",
+    "hq_city": "Arlington",
+    "hq_country": "United States",
+    "score": 49,
+    "score_breakdown": {
+      "fit": 10,
+      "size": 15,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $100M Undisclosed 7 days ago",
+      "In target geography (Arlington, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Neil Sobin",
+        "title": "Founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 100000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "BoxGroup",
+          "First Round Capital",
+          "Insight Partners",
+          "Overmatch Ventures",
+          "Quiet Capital",
+          "TMV"
+        ],
+        "use_of_funds": null,
+        "summary": "Quartermaster AI secured a massive $100M round, bringing its total funding to $148.6M to develop maritime technology.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Tangent Robotics",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "Tangent Robotics develops the technology to give machines human-like dexterity.",
+    "sector": "Hardware / Robotics",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "score": 49,
+    "score_breakdown": {
+      "fit": 10,
+      "size": 15,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $4M Undisclosed 7 days ago",
+      "In target geography (New York, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Matei Ciocarlie",
+        "title": "Co-founder",
+        "source": "article"
+      },
+      {
+        "name": "Pedro Piacenza",
+        "title": "Co-founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 4500000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Fly Ventures",
+          "Logos Fund",
+          "Sparked Ventures",
+          "Toyota Ventures"
+        ],
+        "use_of_funds": null,
+        "summary": "Tangent Robotics raised $4.5M to develop technology for human-like machine dexterity.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "CScale",
+    "domain": null,
+    "website": null,
+    "website_source": null,
+    "description": "CScale develops optical interconnect technology for AI infrastructure.",
+    "sector": "Hardware / Robotics",
+    "hq_city": "Palo Alto",
+    "hq_country": "United States",
+    "score": 42,
+    "score_breakdown": {
+      "fit": 10,
+      "size": 8,
+      "timing": 21,
+      "reachability": 3
+    },
+    "score_reasons": [
+      "Raised $145M Undisclosed 7 days ago",
+      "In target geography (Palo Alto, United States)",
+      "No public email found yet"
+    ],
+    "data_quality": 15,
+    "enrich_status": "no_website",
+    "hiring": null,
+    "emails": [],
+    "phones": [],
+    "socials": {},
+    "people": [
+      {
+        "name": "Sanjai Kohli",
+        "title": "Founder",
+        "source": "article"
+      }
+    ],
+    "funding_events": [
+      {
+        "round_type": "Undisclosed",
+        "amount_usd": 145000000.0,
+        "valuation_usd": null,
+        "announced_on": "2026-10-05",
+        "lead_investors": [],
+        "investors": [
+          "Atreides Management",
+          "Intel Capital",
+          "Maverick Silicon",
+          "NVIDIA",
+          "Premji Invest",
+          "Sutter Hill Ventures",
+          "Valor Equity Partners"
+        ],
+        "use_of_funds": null,
+        "summary": "CScale secured $145M in new capital, backed by major players like NVIDIA and Intel Capital, to advance its optical interconnect technology for AI infrastructure.",
+        "source_article_ids": [
+          9
+        ]
+      }
+    ]
+  }
+]
