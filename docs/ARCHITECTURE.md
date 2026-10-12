@@ -127,7 +127,7 @@ A Render free-tier instance sleeps when idle, so if the first API response takes
 
 ## 4. Data storage strategy
 
-**Database: PostgreSQL 17** (locally `postgres:17-alpine` via Docker Compose; in production, a managed serverless Postgres such as **Neon**). Access is through **SQLAlchemy 2.1** with the **psycopg 3** driver.
+**Database: PostgreSQL** (17 locally via `postgres:17-alpine` in Docker Compose; **18 on Neon** in production, a managed serverless Postgres). Access is through **SQLAlchemy 2.1** with the **psycopg 3** driver.
 
 **Why Postgres:** leads are naturally relational (company → funding events → source articles) and need unique constraints for deduplication. Enrichment output (lists of emails with metadata, socials, people) varies in shape. Postgres handles both: relational tables for identity and joins, and **JSONB** for the variable payloads. A document store would make the unique-key deduplication harder, and a pure relational schema would need 5+ extra tables for contact details.
 
@@ -193,7 +193,7 @@ Each layer runs on the hosting model that suits its workload:
 
 > **Status:** everything runs locally with Docker Compose, and all deployment config is in the repo (`backend/Dockerfile`, `render.yaml`, `.github/workflows/pipeline.yml`). A public deployment needs three free accounts (Vercel, Render, Neon). Each step below is one-time setup.
 
-1. **Database (Neon):** create a project, then copy the connection string as `postgresql+psycopg://…?sslmode=require`. Tables are created automatically on the API's first start.
+1. **Database (Neon):** create a project (Postgres 18, AWS US West to sit next to Render's Oregon region) and copy the **direct** connection string, the host *without* `-pooler`. The app keeps its own SQLAlchemy connection pool, and Neon's PgBouncer pooler (transaction mode) can leak session settings between clients. During the initial `pg_dump | psql` seed, the dump's `set_config('search_path', '')` stuck to pooled server connections and made every table "not exist" for the app. Tables are created automatically on the API's first start, or seeded from the local DB with `pg_dump --no-owner | psql "$NEON_URL"`.
 2. **API (Render):** *New → Blueprint →* select this repo. Render reads `render.yaml`, builds `backend/Dockerfile` (`python:3.12-slim` + `uv sync --frozen`, with the lock file guaranteeing identical versions), and asks for `DATABASE_URL`, `GEMINI_API_KEY`, `CORS_ORIGINS` and `ADMIN_TOKEN`. The health check is `/api/stats`, and every push to `main` redeploys automatically.
 3. **Web (Vercel):** import the repo with root directory `web/` and set `NEXT_PUBLIC_API_URL=https://<render-service>.onrender.com`. Vercel builds with `next build` and deploys previews per branch and production from `main`.
 4. **Scheduler (GitHub Actions):** add `DATABASE_URL` and `GEMINI_API_KEY` as repository secrets. The workflow runs every 6 hours, or manually via *Run workflow* (`workflow_dispatch`).
@@ -259,7 +259,7 @@ The target stack uses managed platforms rather than a hand-configured VPC, so a 
 
 | Purpose | Technology |
 |---|---|
-| Database | PostgreSQL 17.11 (`postgres:17-alpine` locally, Neon in production) |
+| Database | PostgreSQL 17.11 locally (`postgres:17-alpine`), PostgreSQL 18 on Neon in production |
 | Local orchestration | Docker Compose |
 | API container | Docker (`python:3.12-slim` + uv) |
 | Scheduling | GitHub Actions cron |
