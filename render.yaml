@@ -7,10 +7,12 @@ services:
     healthCheckPath: /api/stats
     envVars:
       - key: DATABASE_URL
-        sync: false # Neon connection string: postgresql+psycopg://...?sslmode=require
+        sync: false # Neon connection string, pasted as-is (postgresql://...?sslmode=require)
       - key: GEMINI_API_KEY
         sync: false
       - key: GEMINI_MODEL
-        value: gemini-3.8-flash
+        value: gemini-3.5-flash-lite
       - key: CORS_ORIGINS
         sync: false # e.g. https://signalscout.vercel.app
+      - key: ADMIN_TOKEN
+        sync: false # any long random string; unlocks editing via https://<site>/?admin=<token>

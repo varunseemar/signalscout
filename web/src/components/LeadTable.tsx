@@ -2,6 +2,7 @@
 
 import clsx from "clsx";
 import { Briefcase, Mail, Phone, Star, X } from "lucide-react";
+import { useAccess } from "@/lib/access";
 import { daysAgo, money, type Lead, type LeadStatus } from "@/lib/api";
 import { LinkedinIcon, ScoreBadge, Tag } from "./ui";
 
@@ -26,6 +27,7 @@ export function LeadTable({
   onStatus: (id: number, s: LeadStatus) => void;
   empty: React.ReactNode;
 }) {
+  const { canEdit } = useAccess();
   if (loading) {
     return (
       <div className="divide-y divide-border">
@@ -125,7 +127,7 @@ export function LeadTable({
                 )}
               </div>
 
-              <div className="hidden justify-end gap-0.5 opacity-0 transition-opacity group-hover:opacity-100 lg:flex">
+              <div className={clsx("hidden justify-end gap-0.5 opacity-0 transition-opacity group-hover:opacity-100", canEdit && "lg:flex")}>
                 <IconAction
                   label={l.status === "shortlisted" ? "Remove from shortlist" : "Shortlist"}
                   onClick={() => onStatus(l.id, l.status === "shortlisted" ? "new" : "shortlisted")}

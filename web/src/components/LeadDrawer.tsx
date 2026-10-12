@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import useSWR from "swr";
+import { useAccess } from "@/lib/access";
 import { daysAgo, fetcher, money, send, type EmailDraft, type LeadDetail, type LeadStatus } from "@/lib/api";
 import { Button, ConfidenceTag, CopyButton, LinkedinIcon, ScoreBadge, Section, Tag } from "./ui";
 
@@ -38,6 +39,7 @@ export function LeadDrawer({
   onChanged: () => void;
 }) {
   const { data: lead, mutate } = useSWR<LeadDetail>(`/api/leads/${id}`, fetcher);
+  const { canEdit } = useAccess();
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
@@ -83,6 +85,7 @@ export function LeadDrawer({
                   <X className="h-5 w-5" />
                 </button>
               </div>
+              {canEdit && (
               <div className="mt-4 flex gap-2">
                 <Button
                   size="sm"
@@ -102,6 +105,7 @@ export function LeadDrawer({
                   {lead.status === "dismissed" ? "Restore" : "Not a fit"}
                 </Button>
               </div>
+              )}
             </div>
 
             <Section title="Why this lead">
@@ -267,7 +271,7 @@ export function LeadDrawer({
               </ul>
             </Section>
 
-            <Notes id={lead.id} initial={lead.notes ?? ""} />
+            {canEdit && <Notes id={lead.id} initial={lead.notes ?? ""} />}
           </>
         )}
       </div>

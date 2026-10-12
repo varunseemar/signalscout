@@ -128,8 +128,32 @@ export function toQuery(f: Partial<Filters> & { ids?: number[] }): string {
   return p.toString();
 }
 
+// ---------- admin key (public demo is read-only without it) ----------
+
+const ADMIN_KEY = "signalscout_admin_token";
+
+export function getAdminToken(): string | null {
+  try {
+    return localStorage.getItem(ADMIN_KEY);
+  } catch {
+    return null;
+  }
+}
+
+export function setAdminToken(token: string | null) {
+  try {
+    if (token) localStorage.setItem(ADMIN_KEY, token);
+    else localStorage.removeItem(ADMIN_KEY);
+  } catch {}
+}
+
+function authHeaders(): Record<string, string> {
+  const t = getAdminToken();
+  return t ? { "X-Admin-Token": t } : {};
+}
+
 export async function fetcher<T>(path: string): Promise<T> {
-  const res = await fetch(`${API_URL}${path}`);
+  const res = await fetch(`${API_URL}${path}`, { headers: authHeaders() });
   if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
   return res.json();
 }
@@ -137,7 +161,7 @@ export async function fetcher<T>(path: string): Promise<T> {
 export async function send<T>(path: string, method: string, body?: unknown): Promise<T> {
   const res = await fetch(`${API_URL}${path}`, {
     method,
-    headers: body ? { "Content-Type": "application/json" } : undefined,
+    headers: { ...authHeaders(), ...(body ? { "Content-Type": "application/json" } : {}) },
     body: body ? JSON.stringify(body) : undefined,
   });
   if (!res.ok) {

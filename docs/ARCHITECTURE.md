@@ -63,7 +63,13 @@ The user's job is: *"Each morning, show me the handful of companies worth contac
 - **Notes autosave** when the field loses focus. **Email drafts are cached** per lead, so reopening one is instant and costs no LLM call.
 - **Bulk selection** with select-all for exporting a subset.
 
-### 2.5 Responsiveness & accessibility
+### 2.5 Public demo mode
+
+When `ADMIN_TOKEN` is set on the API, the deployment is **read-only for visitors**. They can browse, filter, open leads, export CSVs and generate AI email drafts (limited to `EMAIL_DRAFTS_PER_HOUR` per visitor IP, and cached drafts are free). Running the pipeline, changing the ICP and editing lead status or notes return `403` and are hidden in the UI, replaced by a *Read-only demo* badge. The owner unlocks editing once by visiting `/?admin=<token>`: the key is stored in `localStorage`, removed from the URL, and sent as an `X-Admin-Token` header. Data stays fresh through the scheduled GitHub Actions run.
+
+A Render free-tier instance sleeps when idle, so if the first API response takes more than 4 s the dashboard shows a *"Waking up the API server…"* notice instead of an endless loading skeleton.
+
+### 2.6 Responsiveness & accessibility
 
 - The table collapses to a compact two-line row below the `lg` breakpoint, and the filter rail stacks above the list. The drawer is full-width on phones.
 - Semantic roles (`table`, `row`, `dialog` with `aria-modal`), `aria-label` on every icon-only button, `aria-pressed` on filter chips, and visible `focus-visible` rings.
@@ -179,7 +185,7 @@ Each layer runs on the hosting model that suits its workload:
 | **Scheduled pipeline** | **Serverless batch** (ephemeral runner) | **GitHub Actions** cron (`.github/workflows/pipeline.yml`, every 6 h) | Runs `signalscout run` against the managed DB and then disappears, so there's no idle compute. The DB-backed seen-URL set is what makes stateless runners work |
 | **Database** | **Serverless Postgres** (scales to zero) | **Neon** | Managed Postgres 17, autoscaling compute, free tier, standard connection string, so there are no code changes |
 
-**Configuration:** everything is 12-factor environment variables read by `pydantic-settings`: `DATABASE_URL`, `GEMINI_API_KEY`, `GEMINI_MODEL`, `GEMINI_FALLBACK_MODELS`, `CORS_ORIGINS`, `MAX_EXTRACT_PER_RUN`, `LLM_REQUESTS_PER_MINUTE` on the backend, and `NEXT_PUBLIC_API_URL` on the frontend. Secrets live in each platform's secret store, never in the repo.
+**Configuration:** everything is 12-factor environment variables read by `pydantic-settings`: `DATABASE_URL` (a plain `postgres://` / `postgresql://` URL from Neon is rewritten to the psycopg driver automatically), `GEMINI_API_KEY`, `GEMINI_MODEL`, `GEMINI_FALLBACK_MODELS`, `CORS_ORIGINS`, `ADMIN_TOKEN`, `EMAIL_DRAFTS_PER_HOUR`, `MAX_EXTRACT_PER_RUN`, `LLM_REQUESTS_PER_MINUTE` on the backend, and `NEXT_PUBLIC_API_URL` on the frontend. Secrets live in each platform's secret store, never in the repo.
 
 ---
 
@@ -188,10 +194,10 @@ Each layer runs on the hosting model that suits its workload:
 > **Status:** everything runs locally with Docker Compose, and all deployment config is in the repo (`backend/Dockerfile`, `render.yaml`, `.github/workflows/pipeline.yml`). A public deployment needs three free accounts (Vercel, Render, Neon). Each step below is one-time setup.
 
 1. **Database (Neon):** create a project, then copy the connection string as `postgresql+psycopg://…?sslmode=require`. Tables are created automatically on the API's first start.
-2. **API (Render):** *New → Blueprint →* select this repo. Render reads `render.yaml`, builds `backend/Dockerfile` (`python:3.12-slim` + `uv sync --frozen`, with the lock file guaranteeing identical versions), and asks for `DATABASE_URL`, `GEMINI_API_KEY` and `CORS_ORIGINS`. The health check is `/api/stats`, and every push to `main` redeploys automatically.
+2. **API (Render):** *New → Blueprint →* select this repo. Render reads `render.yaml`, builds `backend/Dockerfile` (`python:3.12-slim` + `uv sync --frozen`, with the lock file guaranteeing identical versions), and asks for `DATABASE_URL`, `GEMINI_API_KEY`, `CORS_ORIGINS` and `ADMIN_TOKEN`. The health check is `/api/stats`, and every push to `main` redeploys automatically.
 3. **Web (Vercel):** import the repo with root directory `web/` and set `NEXT_PUBLIC_API_URL=https://<render-service>.onrender.com`. Vercel builds with `next build` and deploys previews per branch and production from `main`.
 4. **Scheduler (GitHub Actions):** add `DATABASE_URL` and `GEMINI_API_KEY` as repository secrets. The workflow runs every 6 hours, or manually via *Run workflow* (`workflow_dispatch`).
-5. **CI quality gates** (run locally before every commit): `uv run pytest` (10 unit tests), `npx tsc --noEmit`, `npm run lint`, `npm run build`.
+5. **CI quality gates** (run locally before every commit): `uv run pytest` (15 tests: pipeline logic plus API access control), `npx tsc --noEmit`, `npm run lint`, `npm run build`.
 
 **Release flow:** push to `main` → Render rebuilds the API container and Vercel rebuilds the static site in parallel. The scheduled workflow always checks out the latest `main`.
 

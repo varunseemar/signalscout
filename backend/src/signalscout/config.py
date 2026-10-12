@@ -1,6 +1,7 @@
 from functools import lru_cache
 from pathlib import Path
 
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 BACKEND_DIR = Path(__file__).resolve().parents[2]
@@ -28,6 +29,19 @@ class Settings(BaseSettings):
     )
 
     cors_origins: str = "http://localhost:3000"
+
+    # Public demo protection: when set, write actions require the X-Admin-Token header
+    admin_token: str = ""
+    email_drafts_per_hour: int = 5  # per visitor IP, for non-admin visitors
+
+    @field_validator("database_url")
+    @classmethod
+    def _psycopg_driver(cls, v: str) -> str:
+        # Hosted Postgres (Neon, Render) hands out postgres:// or postgresql:// URLs
+        for prefix in ("postgres://", "postgresql://"):
+            if v.startswith(prefix):
+                return "postgresql+psycopg://" + v[len(prefix):]
+        return v
 
 
 @lru_cache

@@ -1,9 +1,10 @@
 "use client";
 
 import clsx from "clsx";
-import { Activity, Loader2, Play, Radar, SlidersHorizontal } from "lucide-react";
+import { Activity, Eye, Loader2, Play, Radar, SlidersHorizontal } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import useSWR from "swr";
+import { useAccess } from "@/lib/access";
 import { fetcher, send, type PipelineRun, type SourceHealth } from "@/lib/api";
 import { Button } from "./ui";
 
@@ -23,6 +24,7 @@ export function Header({ onOpenIcp, onRunFinished }: { onOpenIcp: () => void; on
   const run = runs?.[0];
   const running = run?.status === "running";
   const wasRunning = useRef(false);
+  const { canEdit } = useAccess();
 
   useEffect(() => {
     if (wasRunning.current && !running) onRunFinished();
@@ -60,14 +62,25 @@ export function Header({ onOpenIcp, onRunFinished }: { onOpenIcp: () => void; on
                   : `Updated ${new Date(run.finished_at ?? run.started_at).toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`}
             </span>
           )}
-          <Button onClick={onOpenIcp}>
-            <SlidersHorizontal className="h-4 w-4" />
-            <span className="hidden sm:inline">Ideal customer</span>
-          </Button>
-          <Button variant="primary" onClick={start} disabled={running}>
-            {running ? <Loader2 className="h-4 w-4 animate-spin" /> : <Play className="h-4 w-4" />}
-            {running ? "Running" : "Find new leads"}
-          </Button>
+          {canEdit ? (
+            <>
+              <Button onClick={onOpenIcp}>
+                <SlidersHorizontal className="h-4 w-4" />
+                <span className="hidden sm:inline">Ideal customer</span>
+              </Button>
+              <Button variant="primary" onClick={start} disabled={running}>
+                {running ? <Loader2 className="h-4 w-4 animate-spin" /> : <Play className="h-4 w-4" />}
+                {running ? "Running" : "Find new leads"}
+              </Button>
+            </>
+          ) : (
+            <span
+              title="Public demo: leads refresh automatically every 6 hours. Editing, re-scoring and manual runs are disabled."
+              className="inline-flex items-center gap-1.5 rounded-full border border-border bg-slate-50 px-3 py-1.5 text-xs font-medium text-muted"
+            >
+              <Eye className="h-3.5 w-3.5" /> Read-only demo
+            </span>
+          )}
         </div>
       </div>
     </header>

@@ -1,10 +1,13 @@
 import csv
+from contextlib import asynccontextmanager
 import io
 import threading
+import time
+from collections import defaultdict, deque
 from datetime import date, timedelta
 from typing import Literal
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, Header, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
@@ -27,18 +30,8 @@ from signalscout.pipeline.extract import ROUNDS, SECTORS
 from signalscout.pipeline.llm import LLMUnavailable
 from signalscout.pipeline.orchestrator import get_icp, rescore_all, run_pipeline
 
-app = FastAPI(title="SignalScout API", version="0.1.0",
-              description="Funding-signal lead engine: who to contact today, and why.")
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[o.strip() for o in get_settings().cors_origins.split(",")],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-
-@app.on_event("startup")
-def _startup():
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
     init_db()
     # Runs execute in a background thread of this process; if the process restarted
     # mid-run, that thread is gone. Close them out so the UI doesn't spin forever.
@@ -46,9 +39,58 @@ def _startup():
         for run in s.scalars(select(PipelineRun).where(PipelineRun.status == "running")):
             run.status, run.stage, run.error = "failed", None, "Interrupted: API restarted during the run"
             run.finished_at = func.now()
+    yield
+
+
+app = FastAPI(lifespan=lifespan, title="SignalScout API", version="0.1.0",
+              description="Funding-signal lead engine: who to contact today, and why.")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[o.strip() for o in get_settings().cors_origins.split(",")],
+    allow_methods=["*"],
+    allow_headers=["*"],
+    expose_headers=["Content-Disposition"],
+)
 
 
 Status = Literal["new", "shortlisted", "contacted", "dismissed"]
+
+
+# ---------- public demo protection ----------
+
+def is_admin(x_admin_token: str | None = Header(None)) -> bool:
+    token = get_settings().admin_token
+    return not token or x_admin_token == token
+
+
+def require_admin(admin: bool = Depends(is_admin)) -> None:
+    if not admin:
+        raise HTTPException(403, "This is a read-only demo. Running the pipeline, editing leads and "
+                                 "changing the ICP need the admin key.")
+
+
+_draft_log: dict[str, deque] = defaultdict(deque)
+
+
+def _client_ip(request: Request) -> str:
+    fwd = request.headers.get("x-forwarded-for")
+    return fwd.split(",")[0].strip() if fwd else (request.client.host if request.client else "unknown")
+
+
+def _draft_allowed(ip: str) -> bool:
+    window, log = 3600, _draft_log[ip]
+    now = time.monotonic()
+    while log and now - log[0] > window:
+        log.popleft()
+    if len(log) >= get_settings().email_drafts_per_hour:
+        return False
+    log.append(now)
+    return True
+
+
+@app.get("/api/config")
+def client_config(admin: bool = Depends(is_admin)):
+    return {"read_only": bool(get_settings().admin_token), "is_admin": admin}
 
 
 # ---------- serialisation ----------
@@ -153,7 +195,7 @@ class LeadPatch(BaseModel):
     notes: str | None = None
 
 
-@app.patch("/api/leads/{lead_id}")
+@app.patch("/api/leads/{lead_id}", dependencies=[Depends(require_admin)])
 def update_lead(lead_id: int, patch: LeadPatch):
     with session_scope() as s:
         c = s.get(Company, lead_id)
@@ -165,7 +207,7 @@ def update_lead(lead_id: int, patch: LeadPatch):
 
 
 @app.post("/api/leads/{lead_id}/email-draft")
-def email_draft(lead_id: int, regenerate: bool = False):
+def email_draft(lead_id: int, request: Request, regenerate: bool = False, admin: bool = Depends(is_admin)):
     from signalscout.pipeline.outreach import draft_email
 
     with session_scope() as s:
@@ -174,6 +216,8 @@ def email_draft(lead_id: int, regenerate: bool = False):
             raise HTTPException(404, "Lead not found")
         if c.email_draft and not regenerate:
             return c.email_draft  # cached: no repeat LLM spend
+        if not admin and not _draft_allowed(_client_ip(request)):
+            raise HTTPException(429, f"Demo limit: {get_settings().email_drafts_per_hour} AI drafts per hour.")
         try:
             draft = draft_email(c, c.funding_events[0] if c.funding_events else None, get_icp(s)["pitch"])
         except LLMUnavailable as e:
@@ -243,7 +287,7 @@ def read_icp():
         return {"icp": get_icp(s), "options": {"sectors": SECTORS, "stages": ROUNDS}}
 
 
-@app.put("/api/icp")
+@app.put("/api/icp", dependencies=[Depends(require_admin)])
 def write_icp(icp: Icp):
     with session_scope() as s:
         row = s.get(IcpProfile, 1) or IcpProfile(id=1)
@@ -257,7 +301,7 @@ def write_icp(icp: Icp):
 _run_lock = threading.Lock()
 
 
-@app.post("/api/pipeline/run", status_code=202)
+@app.post("/api/pipeline/run", status_code=202, dependencies=[Depends(require_admin)])
 def trigger_run():
     if not _run_lock.acquire(blocking=False):
         raise HTTPException(409, "A pipeline run is already in progress")

@@ -1,10 +1,11 @@
 "use client";
 
 import clsx from "clsx";
-import { Download, Newspaper, Radar, Sparkles, Target } from "lucide-react";
-import { useCallback, useDeferredValue, useState } from "react";
+import { Download, Loader2, Newspaper, Radar, Sparkles, Target } from "lucide-react";
+import { useCallback, useDeferredValue, useEffect, useState } from "react";
 import useSWR from "swr";
-import { API_URL, fetcher, send, toQuery, type Filters, type Icp, type Lead, type LeadStatus, type Stats } from "@/lib/api";
+import { useAccess } from "@/lib/access";
+import { API_URL, fetcher, send, setAdminToken, toQuery, type Filters, type Icp, type Lead, type LeadStatus, type Stats } from "@/lib/api";
 import { FilterRail, DEFAULT_FILTERS, STATUS_TABS } from "./FilterRail";
 import { Header } from "./Header";
 import { IcpModal } from "./IcpModal";
@@ -37,6 +38,27 @@ export default function Dashboard() {
     fetcher,
   );
 
+  const { refresh: refreshAccess } = useAccess();
+  const [slowStart, setSlowStart] = useState(false);
+
+  // Owner login: visiting /?admin=KEY stores the key locally, then strips it from the URL
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    const key = url.searchParams.get("admin");
+    if (key === null) return;
+    setAdminToken(key || null);
+    url.searchParams.delete("admin");
+    window.history.replaceState(null, "", url.toString());
+    refreshAccess();
+  }, [refreshAccess]);
+
+  // Free-tier API sleeps when idle; tell the visitor instead of showing an endless skeleton
+  useEffect(() => {
+    if (stats) return;
+    const t = setTimeout(() => setSlowStart(true), 4000);
+    return () => clearTimeout(t);
+  }, [stats]);
+
   const refreshAll = useCallback(() => {
     mutateLeads();
     mutateStats();
@@ -64,6 +86,12 @@ export default function Dashboard() {
       <Header onOpenIcp={() => setIcpOpen(true)} onRunFinished={refreshAll} />
 
       <main className="mx-auto w-full max-w-[1500px] flex-1 space-y-5 px-4 py-6 sm:px-6">
+        {slowStart && !stats && !error && (
+          <div className="flex items-center gap-2.5 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+            <Loader2 className="h-4 w-4 shrink-0 animate-spin" />
+            Waking up the API server (free tier sleeps when idle). This takes up to a minute, only on the first visit.
+          </div>
+        )}
         <StatsBar stats={stats} />
 
         <div className="grid gap-6 lg:grid-cols-[240px_minmax(0,1fr)]">
