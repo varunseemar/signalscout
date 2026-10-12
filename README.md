@@ -8,6 +8,8 @@ A company that just raised money has fresh budget, a hiring plan and a mandate t
 
 | | |
 |---|---|
+| **Live demo** | **https://signalscout-seven.vercel.app** (read-only public demo, refreshed every 6 hours. The first load may take ~50 s while the free-tier API wakes up) |
+| **Live API** | https://signalscout-api.onrender.com/docs (interactive OpenAPI docs) |
 | **Architecture & UX write-up** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): UX decisions, backend architecture, database, caching, hosting, deployment, cloud provider, exact versions |
 | **API demo (Jupyter)** | [notebooks/api_walkthrough.ipynb](notebooks/api_walkthrough.ipynb): executed walkthrough of the live API, outputs included |
 | **Dataset** | [data/](data/): 55 scored leads (CSV + JSON) and the 50-article index |

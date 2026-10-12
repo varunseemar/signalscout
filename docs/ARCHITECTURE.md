@@ -191,7 +191,7 @@ Each layer runs on the hosting model that suits its workload:
 
 ## 7. Deployment process
 
-> **Status:** everything runs locally with Docker Compose, and all deployment config is in the repo (`backend/Dockerfile`, `render.yaml`, `.github/workflows/pipeline.yml`). A public deployment needs three free accounts (Vercel, Render, Neon). Each step below is one-time setup.
+> **Status: live.** Web: https://signalscout-seven.vercel.app · API: https://signalscout-api.onrender.com/docs · DB: Neon Postgres 18 (AWS us-west-2) · Refresh: GitHub Actions every 6 h. The steps below are the one-time setup that was used.
 
 1. **Database (Neon):** create a project (Postgres 18, AWS US West to sit next to Render's Oregon region) and copy the **direct** connection string, the host *without* `-pooler`. The app keeps its own SQLAlchemy connection pool, and Neon's PgBouncer pooler (transaction mode) can leak session settings between clients. During the initial `pg_dump | psql` seed, the dump's `set_config('search_path', '')` stuck to pooled server connections and made every table "not exist" for the app. Tables are created automatically on the API's first start, or seeded from the local DB with `pg_dump --no-owner | psql "$NEON_URL"`.
 2. **API (Render):** *New → Blueprint →* select this repo. Render reads `render.yaml`, builds `backend/Dockerfile` (`python:3.12-slim` + `uv sync --frozen`, with the lock file guaranteeing identical versions), and asks for `DATABASE_URL`, `GEMINI_API_KEY`, `CORS_ORIGINS` and `ADMIN_TOKEN`. The health check is `/api/stats`, and every push to `main` redeploys automatically.
